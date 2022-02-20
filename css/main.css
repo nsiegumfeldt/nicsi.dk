@@ -1,5 +1,10 @@
 /* ========== Generic ========== */
 
+.align-middle {
+  display: flex;
+  align-items: center;
+}
+
 .align-right-middle {
   display: flex;
   justify-content: end;
