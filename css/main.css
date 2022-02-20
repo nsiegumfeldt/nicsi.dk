@@ -1,0 +1,105 @@
+/* ========== Generic ========== */
+
+.align-right-middle {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.border-bottom-md {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-color: #BCBBBB;
+  
+}
+
+.border-left-sm {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-color: #BCBBBB;
+  
+}
+
+/* ========== Cross-site ========== */
+
+body {
+  font-family: lato, sans-serif;
+  color: rgb(64, 64, 64);
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ===== Navigation bar ===== */
+
+.site-nav {
+  padding: 20px 10px 20px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 25px;
+}
+
+#menu-button {
+  max-width: 35px;
+  margin-right: 5px;
+  /* position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%,-50%); */
+}
+
+#menu-button:hover {
+  border-style: solid;
+  border-color: #747704;
+  border-width: 1px;
+  max-width: 37px;
+  margin-right: 4px;
+}
+
+/* ========== Site specific ========== */
+
+/* ===== Contact ===== */
+
+.contact-title {
+  font-size: 60px;
+}
+
+.contact-page {
+  /* max-width: 900px; */
+  margin-top: 0px;
+} 
+
+.contact-img {
+  max-width: 500px;
+  margin: 20px;
+}
+
+
+/* ===== Wiki ===== */
+
+.wiki-doc-title {
+  font-size: 40px;
+  padding: 6px;
+}
+
+.wiki-text {
+  padding: 1.5rem 4rem 1.5rem 3rem;
+}
+
+.logo {
+  max-height: 100px;
+  margin: 20px 0px 20px 0px;
+}
+
+.wiki-page {
+  margin-top: 7px;
+}
+
+
+
+
